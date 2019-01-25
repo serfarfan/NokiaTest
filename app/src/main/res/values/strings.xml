@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">NokiaTest</string>
+    <string name="hintFilterType">Filter by type</string>
+    <string name="title_activity_add_dessert">Add Dessert</string>
+    <string name="hintAddName">Add Name</string>
+    <string name="hintAddPpu">Add Ppu</string>
+    <string name="btnAddDessert">Add Dessert</string>
+    <string name="titleDialogInternetRequired">No hay acceso a internet</string>
+    <string name="txtDialogInternetRequired">Se requiere acceso a internet para descargar los datos</string>
+    <string name="txtBtnOk">OK</string>
+</resources>

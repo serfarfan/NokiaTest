@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/layDessert"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:weightSum="100"
+        android:layout_marginBottom="20dp">
+
+        <EditText
+            android:id="@+id/autoCompDessert"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:ems="10"
+            android:textSize="16sp"
+            android:inputType="text"
+            android:layout_weight="80"
+            android:hint="@string/hintFilterType"
+            android:paddingTop="10dp"
+            android:layout_marginEnd="8dp"/>
+
+        <ImageView
+                android:src="@mipmap/sharp_add_black_24"
+                android:layout_width="0dp"
+                android:layout_weight="20"
+                android:layout_gravity="end"
+                android:contentDescription="@string/hintFilterType"
+                android:layout_height="match_parent"
+                android:id="@+id/addDessert"/>
+
+    </LinearLayout>
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:id="@+id/recyclerDessert"
+            android:scrollbars="vertical"
+            tools:listItem="@layout/dessert_item">
+
+        </android.support.v7.widget.RecyclerView>
+
+    </LinearLayout>
